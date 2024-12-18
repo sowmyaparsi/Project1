@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="amazonpackage.Amazon_Project.Testcase1_LoginAmazon"/>
+      <class name="amazonpackage.Amazon_Project.Testcase3_AddWishlist"/>
+      <class name="amazonpackage.Amazon_Project.TestCase2_Search"/>
+      <class name="amazonpackage.Amazon_Project.Testcase5_RemovingFrmWishList"/>
+      <class name="amazonpackage.Amazon_Project.Testcase4_AddToCart"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
